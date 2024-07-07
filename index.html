@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="css/style.css">
+<head>
+    <title>JavaScript Calculator</title>
+<body>
+<h1>Let's Calculate !</h1>
+<div class="formstyle">
+    <form name="form1">
+        <input id="calc" type="text" name="answer"><br><br>
+        <input type="button" value="1" onclick="addToExpression('1')">
+        <input type="button" value="2" onclick="addToExpression('2')">
+        <input type="button" value="3" onclick="addToExpression('3')">
+        <input type="button" value="+" onclick="addToExpression('+')"><br><br>
+        <input type="button" value="4" onclick="addToExpression('4')">
+        <input type="button" value="5" onclick="addToExpression('5')">
+        <input type="button" value="6" onclick="addToExpression('6')">
+        <input type="button" value="-" onclick="addToExpression('-')"><br><br>
+        <input type="button" value="7" onclick="addToExpression('7')">
+        <input type="button" value="8" onclick="addToExpression('8')">
+        <input type="button" value="9" onclick="addToExpression('9')">
+        <input type="button" value="" onclick="addToExpression('')"><br><br>
+        <input type="button" value="/" onclick="addToExpression('/')">
+        <input type="button" value="0" onclick="addToExpression('0')">
+        <input type="button" value="." onclick="addToExpression('.')">
+        <input type="button" value="=" onclick="calculateResult()"><br>
+        <input type="button" value="C" onclick="clearExpression()">
+        <input type="button" value="Clear All" onclick="clearExpression()" id="clear"><br>
+    </form>
+    <script src="script/script.js"></script>
+</div>
+</body>
+</html>
